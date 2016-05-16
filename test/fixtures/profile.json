@@ -1,0 +1,50 @@
+{
+  "_id": "5544332211",
+  "profile": {
+    "display_name": "Name Surname",
+    "name": {
+      "given_name": "Name",
+      "family_name": "Surname"
+    },
+    "email": {
+      "value": "email@example.com"
+    },
+    "photo": "https://example.com/qweqwe.jpg"
+  },
+  "username": "email@example.com",
+  "providers": [
+    {
+      "name": "username-password",
+      "profile": {
+        "displayName": "Name Surname",
+        "emails": [
+          {
+            "value": "email@example.com"
+          }
+        ]
+      }
+    },
+    {
+      "name": "facebook",
+      "access_token": "EEAAWW",
+      "profile": {
+        "id": "01234567890",
+        "displayName": "NameFb SurnameFb",
+        "gender": "male",
+        "name": {
+          "familyName": "SurnameFb",
+          "givenName": "NameFb"
+        },
+        "emails": [
+          {
+            "value": "email-fb@example.com"
+          }
+        ],
+        "profileUrl": "https://www.facebook.com/app_scoped_user_id/01234567890/"
+      }
+    }
+  ],
+  "last_login_at": "2016-05-16T10:30:07.433Z",
+  "updated_at": "2016-05-16T10:30:07.435Z",
+  "created_at": "2016-05-16T10:29:59.339Z"
+}

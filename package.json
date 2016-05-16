@@ -1,0 +1,45 @@
+{
+  "name": "passport-lead-auth",
+  "version": "0.0.2",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "description": "Lead Auth authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "lead-auth",
+    "auth",
+    "authentication",
+    "identity",
+    "oauth2"
+  ],
+  "author": {
+    "name": "Kurakin Oleksandr",
+    "email": "kurakin@lead-auth.com"
+  },
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lead-auth/passport-lead-auth.git"
+  },
+  "bugs": {
+    "url": "http://github.com/lead-auth/passport-lead-auth/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "passport-oauth2": "^1.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "2.4.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
