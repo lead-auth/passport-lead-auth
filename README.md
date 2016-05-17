@@ -36,7 +36,7 @@ complete authentication.
 
 ```js
 passport.use(new LeadAuthStrategy({
-    account: 'your-lead-auth-account',
+    account: LEAD_AUTH_ACCOUNT,
     clientID: LEAD_AUTH_APP_ID,
     clientSecret: LEAD_AUTH_APP_SECRET,
     callbackURL: "http://localhost/auth/lead-auth/callback"
